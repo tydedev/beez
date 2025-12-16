@@ -1,4 +1,7 @@
-body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
 
 .wp-site-blocks {
     display: flex;
@@ -28,7 +31,7 @@ body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 
 .service-card .wp-block-button__link:hover {
     background-color: var(--wp--preset--color--secondary) !important;
-    box-shadow:  0 0 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
     transform: translateY(-2px);
 }
 
@@ -37,3 +40,29 @@ a {
     transition: all 0.1s ease-in-out;
 }
 
+
+.plan-list {
+    list-style: none;
+    padding-left: 2rem;
+}
+
+.plan-list li {
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.plan-list li::before {
+    content: '\f058';
+    font: var(--fa-font-solid);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: red;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.pricing-card {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}

@@ -44,9 +44,9 @@
 <div class="wp-block-group alignwide has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:10px"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","typography":{"fontSize":"1rem"}}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>
-BusyBiz	
-© 
-	2025</p>
+<?php echo get_bloginfo( 'name' ); ?>	
+© <?php echo date( 'Y' ); ?>	
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
