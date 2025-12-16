@@ -1,0 +1,39 @@
+body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+
+.wp-site-blocks {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+}
+
+.wp-site-blocks footer {
+    margin-top: auto;
+}
+
+.beez-header {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4)
+}
+
+.service-card {
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.service-card .wp-block-button__link {
+    border-radius: 5px;
+    padding: 7px 10px;
+    transform: translateY(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.service-card .wp-block-button__link:hover {
+    background-color: var(--wp--preset--color--secondary) !important;
+    box-shadow:  0 0 3px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+
+a {
+    transition: all 0.1s ease-in-out;
+}
+

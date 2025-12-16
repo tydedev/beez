@@ -1,0 +1,5 @@
+body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+
+.beez-header {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
+}
